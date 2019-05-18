@@ -1,4 +1,4 @@
-# Git Daily-Learn
+    # Git Daily-Learn
 ## Git Configuration
 ```bash
 $ git config --global user.name <your-name>
@@ -56,7 +56,7 @@ $ git clean -f -n                   # check whose file I want to delete
 ```bash
 $ git clone <url>                   # download repository from url
 $ git remote add <origin> <url>     # add local repository in remotely
- 
+
 ```
 
 
