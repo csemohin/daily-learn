@@ -17,6 +17,7 @@ $ git add <file-name>               # add a single file
 $ git add . <add all file>          # add all file
 $ git commit -am "comment"          # git commit all file
 $ git commit -m "comment"           # commit all file
+$ git commit --amend                # same commit but different log id
 ```
 
 ## Git Log
@@ -38,11 +39,24 @@ $ git checkout master -f            # go to single file master/head
 ```bash
 $ git reset --soft <log-id>         # reset accidental commit softly
 $ git reset --hard <log-id>         # reset accidental commit hardly
-$ git reset HEAD@{<reflog-ofset>}   # hard reset file backup
+$ git reset HEAD@{<reflog-offset>}  # hard reset file backup
 $ git reset hard                    # after reset HEAD@{8}
 ```
-
-
-
+## Git Stash & Git Clean
+```bash
+$ git stash                         # temporary data delete
+$ git stash pop/apply               # temporary date back
+$ git stash list                    # show how many stash available
+$ git stash pop stash@{<stash-list-offset>} # back any offset stash
+$ git stash clear                   # clear all stash
+$ git clean -f                      # delete all untraced file
+$ git clean -f -n                   # check whose file I want to delete
+```
+## Git Push & Git Pull
+```bash
+$ git clone <url>                   # download repository from url
+$ git remote add <origin> <url>     # add local repository in remotely
+ 
+```
 
 
