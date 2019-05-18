@@ -4,6 +4,11 @@
 $ git config --global user.name <your-name>
 $ git config --global user.email <your-email>
 ```
+## Generate SSH Key
+```bash
+$ ssh-keygen -t rsa -C <your_email@example.com>
+$ cat ~/.ssh/id_rsa.pub     // copy id_rsa.pub
+```
 ## Basic Git Command
 ```bash
 $ git init                  // initialize git
