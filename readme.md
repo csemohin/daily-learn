@@ -1,4 +1,4 @@
-    # Git Daily-Learn
+# Git Daily-Learn
 ## Git Configuration
 ```bash
 $ git config --global user.name <your-name>
