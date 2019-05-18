@@ -63,3 +63,7 @@ $ git pull origin <branch>          # latest file from server <branch>
 ## Git Ignore
 > git ignore file automatically remove all file and and folder. Ex- *.zip
 
+## After Git Marge
+```bash
+$ git checkout master; git fetch; git reset --hard origin/master; git branch -D <branch-name>; git checkout -b <branch-name>
+```
