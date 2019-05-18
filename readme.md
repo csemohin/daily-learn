@@ -63,5 +63,3 @@ $ git pull origin <branch>          # latest file from server <branch>
 ## Git Ignore
 > git ignore file automatically remove all file and and folder. Ex- *.zip
 
-## 
-
