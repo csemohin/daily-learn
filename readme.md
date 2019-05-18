@@ -56,7 +56,12 @@ $ git clean -f -n                   # check whose file I want to delete
 ```bash
 $ git clone <url>                   # download repository from url
 $ git remote add <origin> <url>     # add local repository in remotely
-
+$ git remote show                   # show how many git remote
+$ git remote show <origin>          # show how many git remote url
+$ git pull origin <branch>          # latest file from server <branch>
 ```
+## Git Ignore
+> git ignore file automatically remove all file and and folder. Ex- *.zip
 
+## 
 
