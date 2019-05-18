@@ -12,12 +12,9 @@ $ cat ~/.ssh/id_rsa.pub     // copy id_rsa.pub
 ## Basic Git Command
 ```bash
 $ git init                  // initialize git
-
 $ git status                // check git status
-
 $ git add <file-name>       // add a single file
 $ git add . <add all file>  // add all file
-
 $ git commit -am "comment"  // git commit all file
 $ git commit -m "comment"   // commit all file
 ```
